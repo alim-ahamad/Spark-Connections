@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Area</title>
+    <link rel="stylesheet" href="dating-client.css">
+</head>
+<body>
+    <div class="container1">
+        <nav>
+            <div class="logo"> <span>our</span> site </div>
+            <div class="lang">
+                <h4>change Language :</h4>
+                <input type="text" placeholder="English" list="language">
+                <datalist id="language">
+                    <option value="English"></option>
+                    <option value="Russian"></option>
+                    <option value="Korean"></option>
+                    <option value="Japanese"></option>
+                </datalist>
+            </div>
+        </nav>
+        <div class="content1">
+            <img src="women.png" class="img1" oncontextmenu="return false">
+            <div class="main1">
+                <h2>login to your account</h2>
+                <p>Email address</p>
+                <input type="email" placeholder="you@example.com" required>
+                <p>password <a href="#">I forgot my password</a> </p>
+                <input type="password" placeholder="password" required>
+                <p><input type="checkbox" id="keep" ><label for="keep" >keep me logged in </label></p> 
+                <button onclick="alert('Message cannot send, No database for contact ..... bhai aata he nhi hai lagana toh hai he nhi')">Sign in</button>
+                <h3>Don't have account yet ?<a href="#">Sign up</a></h3>
+            </div>
+            <img src="men-removebg-preview.png" class="img2" oncontextmenu="return false">
+            <img src="half-women.png" id="half" oncontextmenu="return false">
+        </div>
+    </div>
+</body>
+</html>
